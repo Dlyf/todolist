@@ -6,6 +6,8 @@ import Header from './component/Header/Header';
 import Register from './component/Auth/Register'
 import Login from './component/Auth/Login';
 import Logout from './component/Auth/Logout';
+import AddTask from './component/AddTask';
+import AddAllTask from './component/AddAllTask';
 const App = () => {
     return (
         <div>
@@ -14,6 +16,9 @@ const App = () => {
             <Register />
             <Login />
             <Logout />
+            <hr />
+            <AddTask />
+            <AddAllTask />
         </div>
     );
 };
