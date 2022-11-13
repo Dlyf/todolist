@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from "react";
 import axios from "axios";
 import InputCreateTodo from "./Form/InputCreateTodo";
+
 // import TodoList from "./TodoList";
 const Todos = () => {
     // const [todos, setTodos] = useState(null);
@@ -30,7 +31,7 @@ const Todos = () => {
     return (
         // <div>{todos ? <TodoList /> : "...loading"}</div>
         <div><InputCreateTodo/>
-        <h3>{task}</h3>
+        
         </div>
         // todos.map(todo => (
         //     <div>

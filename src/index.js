@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import InputCreateTodo from './component/Form/InputCreateTodo';
 import Header from './component/Header/Header';
-import Todos from './component/Todos';
 const App = () => {
     return (
         <div>
             <Header />
-            <Todos />
+            <InputCreateTodo />
         </div>
     );
 };
