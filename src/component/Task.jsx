@@ -5,7 +5,7 @@ const Task = (props) => {
     return (
         <div>
             <h2>{props.taskName}</h2>
-            <button onClick={() => props.iddeleteTask(props.id)}>X</button>
+            <button onClick={() => props.deleteTask(props.id)}>X</button>
         </div>
     );
 };

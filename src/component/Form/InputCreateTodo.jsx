@@ -60,12 +60,13 @@ const InputCreateTodo = () => {
                     Add
                 </Button>
                 <div className="list">
-                {todoList.map((task) => {
-                    return (
-                        
-                    <Task taskName={task.taskName} id={task.id} deleteTask={deleteTask} />
-                    )
-                })}
+                    {todoList.map((index, task) => {
+                        return (
+                            <div className="task">
+                                <Task taskName={task.taskName} id={task.id} deleteTask={deleteTask} />
+                            </div>
+                        )
+                    })}
                 </div>
             </Box>
         </div>
