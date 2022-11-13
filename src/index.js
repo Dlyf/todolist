@@ -14,7 +14,6 @@ const App = () => {
             <Register />
             <Login />
             <Logout />
-            
         </div>
     );
 };
